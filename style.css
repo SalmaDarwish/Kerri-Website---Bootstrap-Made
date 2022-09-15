@@ -1,0 +1,609 @@
+/* General Style */
+:root {
+    --main-color: rgb(0, 0, 0);
+    --secondary-color: rgb(230, 95, 120);
+}
+
+.html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url("fonts/static/Nunito-Regular.ttf");
+}
+
+@font-face {
+    font-family: mont;
+    src: url("fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+body {
+    font-family: Nunito;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: mont;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Home Section */
+.home {
+    background-image: url("images/header-bg.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+/* Header */
+.active {
+    color: var(--secondary-color) !important;
+}
+
+.nav-link:hover {
+    color: var(--secondary-color);
+}
+
+.navbar-nav li a {
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    line-height: 24px;
+    transition: all 0.5s;
+    color: #000;
+    margin: 0 7px;
+}
+
+.logo {
+    width: 40%;
+}
+
+@keyframes typing {
+    0% {
+        content: "|";
+    }
+
+    2% {
+        content: "K|";
+    }
+
+    4% {
+        content: "Ke|";
+    }
+
+    6% {
+        content: "Ker|";
+    }
+
+    8% {
+        content: "Kerri|";
+    }
+
+    10% {
+        content: "Kerri D|"
+    }
+
+    12% {
+        content: "Kerri De|";
+    }
+
+    14% {
+        content: "Kerri Deo|";
+    }
+
+    16% {
+        content: "Kerri Deo.|";
+    }
+
+    18% {
+        content: "Kerri Deo|";
+    }
+
+    19% {
+        content: "Kerri De|";
+    }
+
+    20% {
+        content: "Kerri D|"
+    }
+
+    21% {
+        content: "Kerri|";
+    }
+
+    22% {
+        content: "Kerr|";
+    }
+
+    23% {
+        content: "Ker|";
+    }
+
+    24% {
+        content: "Ke|";
+    }
+
+    25% {
+        content: "K|";
+    }
+
+    26% {
+        content: "|"
+    }
+
+    28% {
+        content: "A|";
+    }
+
+    30% {
+        content: "A G|";
+    }
+
+    32% {
+        content: "A Gr|";
+    }
+
+    34% {
+        content: "A Gra|";
+    }
+
+    36% {
+        content: "A Grap|";
+    }
+
+    38% {
+        content: "A Graph|"
+    }
+
+    40% {
+        content: "A Graphi|";
+    }
+
+    42% {
+        content: "A Graphic|";
+    }
+
+    44% {
+        content: "A Graphic D|";
+    }
+
+    45% {
+        content: "A Graphic De|";
+    }
+
+    46.5% {
+        content: "A Graphic Des|";
+    }
+
+    47% {
+        content: "A Graphic Desi|"
+    }
+
+    47.5% {
+        content: "A Graphic Desig|";
+    }
+
+    48% {
+        content: "A Graphic Design|";
+    }
+
+    48.5% {
+        content: "A Graphic Designe|";
+    }
+
+    49% {
+        content: "A Graphic Designer|";
+    }
+
+    49.5% {
+        content: "A Graphic Designe|";
+    }
+
+    50% {
+        content: "A Graphic Design|"
+    }
+
+    50.5% {
+        content: "A Graphic Desig|";
+    }
+
+    51% {
+        content: "A Graphic Desi|";
+    }
+
+    52% {
+        content: "A Graphic Des|";
+    }
+
+    54% {
+        content: "A Graphic De|";
+    }
+
+    56% {
+        content: "A Graphic D|";
+    }
+
+    58% {
+        content: "A Graphic |"
+    }
+
+    60% {
+        content: "A Graphi|"
+    }
+
+    62% {
+        content: "A Graph|";
+    }
+
+    64% {
+        content: "A Grap|";
+    }
+
+    66% {
+        content: "A Gra|";
+    }
+
+    68% {
+        content: "A Gr|";
+    }
+
+    69% {
+        content: "A G|";
+    }
+
+    70% {
+        content: "A|"
+    }
+
+    71% {
+        content: "A P|";
+    }
+
+    72% {
+        content: "A Ph|";
+    }
+
+    73% {
+        content: "A Pho|";
+    }
+
+    74% {
+        content: "A Phot|";
+    }
+
+    74.5% {
+        content: "A Photo|";
+    }
+
+    75% {
+        content: "A Photog|"
+    }
+
+    76% {
+        content: "A Photogr|";
+    }
+
+    78% {
+        content: "A Photogra|";
+    }
+
+    80% {
+        content: "A Photograp|";
+    }
+
+    82% {
+        content: "A Photograph|";
+    }
+
+    84% {
+        content: "A Photographe|";
+    }
+
+    86% {
+        content: "A Photographer|"
+    }
+
+    88% {
+        content: "A Photographer.|";
+    }
+
+    90% {
+        content: "A Photographer|";
+    }
+
+    91% {
+        content: "A Photographe|";
+    }
+
+    92% {
+        content: "A Photograph|";
+    }
+
+    93% {
+        content: "A Photograp|";
+    }
+
+    94% {
+        content: "A Photogra|"
+    }
+
+    94.5% {
+        content: "A Photogr|";
+    }
+
+    95% {
+        content: "A Photog|";
+    }
+
+    95.5% {
+        content: "A Photo|";
+    }
+
+    96% {
+        content: "A Phot|";
+    }
+
+    96.5% {
+        content: "A Pho|";
+    }
+
+    97% {
+        content: "A Ph|"
+    }
+
+    97.5% {
+        content: "A P|";
+    }
+
+    98% {
+        content: "A|";
+    }
+
+    100% {
+        content: "|"
+    }
+}
+
+.home-slide::after {
+    animation-duration: 20s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-name: typing;
+    content: "|";
+    display: inline-block;
+}
+
+.home-slide {
+    font-weight: 700;
+    font-size: 54px;
+}
+
+.home-caption {
+    color: rgba(255, 255, 255, 0.75);
+    line-height: 1.8;
+    font-size: 0.9rem;
+}
+
+.cv-btn {
+    border: 2px solid white !important;
+    font-size: 14px;
+    padding: 15px 30px;
+    font-weight: 900 !important;
+}
+
+.cv-btn:hover {
+    background-color: white !important;
+    border: none;
+    color: black;
+}
+
+.cv-btn:hover .cv-link {
+    color: black !important;
+}
+
+.settings {
+    top: 17%;
+    cursor: pointer;
+}
+
+.top-arrow {
+    bottom: 10px;
+    right: 20px;
+    background-color: var(--secondary-color);
+}
+/* Home Section */
+
+
+/* About Section */
+
+.pink-text {
+    color: var(--secondary-color);
+}
+
+.social-icons ul {
+    list-style-type: none;
+}
+
+.social-icon-circle {
+    height: 45px;
+    width: 45px;
+    border: 2px solid #d4d4d4;
+
+}
+
+.fa-dribbble {
+    font-weight: 500 !important;
+    font-size: 20px;
+}
+
+.social-item :hover {
+    border: 2px solid var(--secondary-color);
+}
+
+.social-item :hover i {
+    color: var(--secondary-color) !important;
+}
+/* About Section */
+
+
+/* Services Section */
+
+.services-caption {
+    width: 45%;
+    margin: auto;
+}
+
+@media screen and (max-width: 992px) {
+    .services-caption {
+        width: 75%;
+        margin: auto;
+    }
+
+}
+
+.icon {
+    color: var(--secondary-color) !important;
+}
+
+.service-box {
+    border: 1px solid #e8e8e8;
+}
+
+.service-title::after {
+    content: "";
+    width: 10%;
+    position: absolute;
+    height: 2px;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--secondary-color);
+    transition: all 0.7s;
+}
+
+.service-box:hover .service-title::after {
+    width: 15%;
+}
+/* Services Section */
+
+/* Hire Me Section */
+.hire-btn {
+    background-color: var(--secondary-color);
+    padding: 15px 30px;
+    border-radius: 5px;
+    letter-spacing: 0.6px;
+    font-size: 14px;
+    font-weight: 600 !important;
+}
+
+.hire-btn:hover {
+    background-color: rgb(216, 87, 111);
+
+}
+/* Hire Me Section */
+
+/* Client Section */
+.carousel-indicators {
+    position: static !important;
+}
+
+.review {
+    font-size: 18px;
+    width: 72%;
+    text-align: center;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: var(--secondary-color);
+    width: 15px;
+    height: 5px;
+    border-radius: 5px;
+}
+/* Client Section */
+
+
+/* Portfolio Section */
+.nav-pills .nav-link.active {
+    color: white !important;
+    background-color: var(--secondary-color);
+}
+
+.cstm-tab {
+    color: black !important;
+}
+
+.cstm-tab:hover {
+    color: white !important;
+    background-color: var(--secondary-color);
+}
+
+.work-data {
+    opacity: 1;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.3s;
+}
+
+.work-img::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    border-radius: 5px;
+    background-color: black;
+    opacity: 0.7;
+    display: none;
+}
+
+.work-box:hover .work-img::after {
+    display: block;
+    cursor: pointer;
+
+}
+
+.work-box:hover .work-data {
+    top: 40%;
+    cursor: pointer;
+}
+/* Portfolio Section */
+
+
+/* Blog Section */
+.blog-box .pink-text:hover {
+    color: var(--secondary-color);
+}
+/* Blog Section */
+
+/* Footer Section */
+footer {
+    background-color: #212121 !important;
+}
+
+.msg-btn {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.social-icon-circlex {
+    height: 45px;
+    width: 45px;
+    background-color: rgba(241, 241, 241, 0.08)
+}
+.iconx{
+    color:#ababab
+
+}
+.social-itemx :hover i {
+    color: var(--secondary-color) !important;
+}
+/* Footer Section */
